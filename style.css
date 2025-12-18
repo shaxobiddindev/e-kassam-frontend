@@ -182,15 +182,15 @@ header {
     transition: all 0.3s ease;
 }
 
-.btn.primary {
-    background: linear-gradient(135deg, #017dca, #005fa3);
-    color: #ffffff;
-}
+/*.btn.primary {*/
+/*    background: linear-gradient(135deg, #017dca, #005fa3);*/
+/*    color: #ffffff;*/
+/*}*/
 
-.btn.primary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 7px 15px rgba(1,125,202,0.45);
-}
+/*.btn.primary:hover {*/
+/*    transform: translateY(-3px);*/
+/*    box-shadow: 0 7px 15px rgba(1,125,202,0.45);*/
+/*}*/
 
 .btn.outline {
     border: 2px solid #017dca;
@@ -233,6 +233,7 @@ header {
     color: #e5e7eb;
     text-decoration: none;
     font-weight: 600;
+    transition: all 0.3s ease;
 }
 
 .footer-social {
@@ -249,11 +250,22 @@ header {
     align-items: center;
     justify-content: center;
     color: #ffffff;
+    font-size: 18px;
+    transition: all 0.3s ease;
 }
 
 .footer-copy {
     font-size: 14px;
     opacity: 0.85;
+}
+
+.footer-links a:hover {
+    color: #38bdf8;
+}
+
+.footer-social a:hover {
+    background: #017dca;
+    transform: translateY(-4px);
 }
 
 /* ================= RESPONSIVE (HEADER SAQLANADI) ================= */

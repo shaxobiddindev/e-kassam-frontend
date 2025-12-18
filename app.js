@@ -23,6 +23,7 @@ function showModal() {
     showErrorModal("Kechirasiz bu hunksiya hali ishlab chiqlmagan!");
 }
 
-burger.addEventListener("click", showModal);
+document.querySelector('.show__error').addEventListener('click', showModal);
+burger.addEventListener("click", openMenu);
 navClose.addEventListener("click", closeMenu);
 navOverlay.addEventListener("click", closeMenu);
