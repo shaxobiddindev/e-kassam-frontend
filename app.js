@@ -20,7 +20,7 @@ function closeMenu() {
 }
 
 function showModal() {
-    showErrorModal("Kechirasiz bu hunksiya hali ishlab chiqlmagan!");
+    showErrorModal("Kechirasiz bu funksiya hali ishlab chiqlmagan!");
 }
 
 document.querySelector('.show__error').addEventListener('click', showModal);
