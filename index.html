@@ -39,7 +39,7 @@
             </ul>
 
             <div class="login">
-                <button><i class="fa-solid fa-arrow-right-to-bracket"></i> Kirish</button>
+                <button onclick="showModal()"><i class="fa-solid fa-arrow-right-to-bracket"></i> Kirish</button>
             </div>
         </nav>
 
@@ -94,28 +94,7 @@
 </footer>
 
 <!-- JS -->
-<script>
-    const burger = document.getElementById("burger");
-    const navLinks = document.getElementById("navLinks");
-    const navOverlay = document.getElementById("navOverlay");
-    const navClose = document.getElementById("navClose");
-
-    function openMenu() {
-        navClose.style.display = "block";
-        navLinks.classList.add("active-menu");
-        navOverlay.classList.add("active");
-        document.body.classList.add("menu-open");
-    }
-
-    function closeMenu() {
-        navLinks.classList.remove("active-menu");
-        navOverlay.classList.remove("active");
-        document.body.classList.remove("menu-open");
-    }
-
-    burger.addEventListener("click", openMenu);
-    navClose.addEventListener("click", closeMenu);
-    navOverlay.addEventListener("click", closeMenu);
+<script type="module" src="./app.js">
 </script>
 
 </body>

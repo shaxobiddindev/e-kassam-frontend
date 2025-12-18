@@ -187,9 +187,20 @@ header {
     color: #ffffff;
 }
 
+.btn.primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(1,125,202,0.45);
+}
+
 .btn.outline {
     border: 2px solid #017dca;
     color: #017dca;
+}
+
+.btn.outline:hover {
+    background: #017dca;
+    color: #ffffff;
+    transform: translateY(-3px);
 }
 
 /* ================= FOOTER ================= */
